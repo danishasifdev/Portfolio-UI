@@ -6,16 +6,30 @@
     <title>Blog</title>
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body class="w-full px-5 mx-auto md:px-0">
+  <body>
     <!-- NAVBAR  -->
-    <nav>
+    <nav class="max-w-[100rem] mx-auto">
       <ul>
         <li class="justify-end hidden gap-8 px-16 md:flex py-7">
-          <a class="text-xl font-medium text-[#FF6464]" href="blog.html"
+          <a
+            class="text-xl font-medium hover:text-red-400 text-black"
+            href="index.html"
+            >Home</a
+          >
+
+          <a
+            class="text-xl font-medium hover:text-red-400 text-black"
+            href="work.html"
+            >Works</a
+          >
+          <a
+            class="text-xl font-medium hover:text-red-400 text-[#FF6464]"
+            href="blog.html"
             >Blog</a
           >
-          <a class="text-xl font-medium text-black" href="work.html">Works</a>
-          <a class="text-xl font-medium text-black" href="work-details.html"
+          <a
+            class="text-xl font-medium hover:text-red-400 text-black"
+            href="contact.html"
             >Contact</a
           >
         </li>
@@ -35,7 +49,7 @@
       </div>
     </nav>
     <!-- MAIN  -->
-    <section class="py-14 md:px-20 lg:px-32">
+    <section class="py-14 max-w-[100rem] mx-auto md:px-20 lg:px-32">
       <h2 class="text-[#21243D] text-3xl md:text-5xl font-bold mb-0 md:mb-5">
         Blog
       </h2>
@@ -118,7 +132,7 @@
     </section>
 
     <!-- FOOTER  -->
-    <footer class="px-16 py-12 md:px-36 md:py-14">
+    <footer class="px-16 max-w-[100rem] mx-auto py-12 md:px-36 md:py-14">
       <div class="flex items-center justify-center gap-9">
         <a href="#">
           <svg

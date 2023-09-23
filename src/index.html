@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body class="w-full mx-auto">
+  <body>
     <!-- NAVBAR  -->
-    <nav>
+    <nav class="max-w-[100rem] mx-auto">
       <ul>
         <li class="justify-end hidden gap-8 px-16 md:flex py-7">
-          <a class="text-xl font-medium text-black" href="work.html">Works</a>
-          <a class="text-xl font-medium text-black" href="blog.html">Blog</a>
-          <a class="text-xl font-medium text-black" href="work-details.html"
+          <a
+            class="text-xl font-medium text-black hover:text-red-400"
+            href="work.html"
+            >Works</a
+          >
+          <a
+            class="text-xl font-medium text-black hover:text-red-400"
+            href="blog.html"
+            >Blog</a
+          >
+          <a
+            class="text-xl font-medium text-black hover:text-red-400"
+            href="contact.html"
             >Contact</a
           >
         </li>
@@ -32,7 +42,7 @@
       </div>
     </nav>
     <!-- HERO  -->
-    <section id="intro">
+    <section id="intro" class="max-w-[100rem] mx-auto">
       <div
         class="grid gap-10 px-6 pb-12 sm:px-8 lg:py-28 lg:px-36 md:p-12 md:gap-2 lg:gap-3 md:grid-cols-2 place-items-center"
       >
@@ -66,7 +76,7 @@
     <!-- RECENT POSTS  -->
     <section
       id="recent-posts"
-      class="lg:px-36 xl:gap-20 mx-auto md:px-12 py-8 bg-[#EDF7FA]"
+      class="lg:px-36 xl:gap-20 mx-auto max-w-[100rem] md:px-12 py-8 bg-[#EDF7FA]"
     >
       <div class="flex items-center justify-center pb-4 md:justify-between">
         <p class="text-xl text-[#21243D]">Recent Posts</p>
@@ -111,7 +121,7 @@
       </div>
     </section>
     <!-- WORK  -->
-    <section id="work" class="py-12 md:px-12 lg:px-36">
+    <section id="work" class="py-12 md:px-12 max-w-[100rem] mx-auto lg:px-36">
       <h3 class="text-[#21243D] text-center md:text-start text-2xl">
         Featured Works
       </h3>
@@ -185,7 +195,9 @@
       </div>
     </section>
     <!-- FOOTER  -->
-    <footer class="px-12 py-12 md:px-36 md:py-12 lg:px-36">
+    <footer
+      class="px-12 max-w-[100rem] mx-auto py-12 md:px-36 md:py-12 lg:px-36"
+    >
       <div class="flex items-center justify-center gap-9">
         <a href="#">
           <svg
