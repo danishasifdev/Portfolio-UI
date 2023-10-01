@@ -1,3 +1,5 @@
 # Portfolio UI
- Ive created this website as a practice project using html and tailwindcss
-This site is responsive for different screen sizes.
+I've created this website as a practice project using html and tailwindcss
+
+Check live version here :
+portfolio-ui.on.fleek.co/src
